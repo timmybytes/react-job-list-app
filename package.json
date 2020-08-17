@@ -1,5 +1,6 @@
 {
   "name": "react-job-list-app",
+  "homepage": "https://timmybytes.github.io/react-job-list-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

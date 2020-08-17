@@ -45,8 +45,7 @@ class App extends Component {
         <br />
         <p className="text-center">
           <a href="https://github.com/timmybytes/react-job-list-app">View project on Github</a>
-        </p>
-        <p className="text-center">
+          <br />
           Inspired by{" "}
           <a href="https://www.taniarascia.com/getting-started-with-react/">
             Tania Rascia's tutorial

@@ -18,7 +18,9 @@ const TableBody = (props) => {
         <td>{row.name}</td>
         <td>{row.job}</td>
         <td>
-          <button onClick={() => props.removeCharacter(index)}>Delete</button>
+          <button className="round-button" onClick={() => props.removeCharacter(index)}>
+            Delete
+          </button>
         </td>
       </tr>
     );

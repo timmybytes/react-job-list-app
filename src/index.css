@@ -377,8 +377,8 @@ html {
 }
 
 body {
-  color: #404040;
-  background: white;
+  color: #1d1d1d;
+  background: #ee6868;
   font-size: 1rem;
 }
 
@@ -407,7 +407,7 @@ h5 {
   font-weight: 600;
   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
   line-height: 1.2;
-  color: #404040;
+  color: #1d1d1d;
 }
 
 h1:not(:first-child),
@@ -442,6 +442,47 @@ h4 {
 
 h5 {
   font-size: 1rem;
+}
+
+.brand-tilt {
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: #1d1d1d;
+  -webkit-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+  margin-top: 80px;
+  margin-bottom: 28px;
+}
+
+.brand-h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  font-style: italic;
+  text-align: center;
+  font-size: 64px;
+  color: #ee6868;
+  -webkit-transform: rotate(2deg);
+  transform: rotate(2deg);
+  text-shadow: 3px 3px 0px #1d1d1d;
+}
+.brand-h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  font-style: italic;
+  text-align: center;
+  color: #efefef;
+  padding: 3px;
+  text-shadow: 1px 1px 0px #1d1d1d;
+}
+
+.brand-h3:hover {
+  background: #1d1d1d;
+  color: #ee6868;
+  text-decoration: none;
 }
 
 @media (min-width: 600px) {
@@ -502,7 +543,7 @@ pre {
   background: transparent;
   padding: 1rem;
   tab-size: 2;
-  color: #404040;
+  color: #1d1d1d;
   font-family: Menlo, monospace;
   font-size: 14px;
   margin: 0 0 1.5rem 0;
@@ -529,7 +570,7 @@ kbd {
 }
 
 :not(pre) > code {
-  color: #404040;
+  color: #1d1d1d;
   background: transparent;
   font-family: Menlo, monospace;
   font-size: 14px;
@@ -541,7 +582,7 @@ kbd {
 hr {
   height: 0;
   border: 0;
-  border-top: 1px solid #dedede;
+  border-top: 1px solid #1d1d1d;
 }
 
 dt {
@@ -752,7 +793,7 @@ dd {
 
 .alternate-background {
   background: #fafafa;
-  color: #404040;
+  color: #1d1d1d;
 }
 
 .space-between {
@@ -781,10 +822,14 @@ dd {
 .button, a.button, button, [type=submit], [type=reset], [type=button] {
   -webkit-appearance: none;
   display: inline-block;
-  border: 1px solid #0366ee;
+  /* border: 1px solid #0366ee; */
+  border: 1px solid #eff3ff;
   border-radius: 4px;
-  background: #0366ee;
-  color: #ffffff;
+  /* background: #378bff; */
+  background: #efefef;
+  /* color: #ffffff; */
+  color: #1d1d1d;
+  box-shadow: 1px 1px 3px #1d1d1d;
   font-weight: 600;
   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1rem;
@@ -799,9 +844,9 @@ dd {
 }
 
 .button:hover, a.button:hover, button:hover, [type=submit]:hover, [type=reset]:hover, [type=button]:hover {
-  border: 1px solid #0250bc;
-  background: #0250bc;
-  color: #ffffff;
+  border: 1px solid #1d1d1d;
+  background: #1d1d1d;
+  color: #efefef;
   text-decoration: none;
 }
 
@@ -870,7 +915,7 @@ a.full-button {
  */
 [type=color], [type=date], [type=datetime], [type=datetime-local], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=url], [type=week], [type=time], select, textarea {
   display: block;
-  border: 1px solid #dedede;
+  border: 1px solid #1d1d1d;
   border-radius: 4px;
   padding: 0.75rem;
   outline: none;
@@ -883,7 +928,7 @@ a.full-button {
 }
 
 [type=color]:hover, [type=date]:hover, [type=datetime]:hover, [type=datetime-local]:hover, [type=email]:hover, [type=month]:hover, [type=number]:hover, [type=password]:hover, [type=search]:hover, [type=tel]:hover, [type=text]:hover, [type=url]:hover, [type=week]:hover, [type=time]:hover, select:hover, textarea:hover {
-  border: 1px solid #c5c5c5;
+  border: 1px solid #efefef;
 }
 
 [type=color]:focus, [type=color]:active, [type=date]:focus, [type=date]:active, [type=datetime]:focus, [type=datetime]:active, [type=datetime-local]:focus, [type=datetime-local]:active, [type=email]:focus, [type=email]:active, [type=month]:focus, [type=month]:active, [type=number]:focus, [type=number]:active, [type=password]:focus, [type=password]:active, [type=search]:focus, [type=search]:active, [type=tel]:focus, [type=tel]:active, [type=text]:focus, [type=text]:active, [type=url]:focus, [type=url]:active, [type=week]:focus, [type=week]:active, [type=time]:focus, [type=time]:active, select:focus, select:active, textarea:focus, textarea:active {
@@ -909,7 +954,7 @@ legend {
 }
 
 select {
-  color: #404040;
+  color: #1d1d1d;
   -webkit-appearance: none;
   -moz-appearance: none;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAJCAYAAAA/33wPAAAAvklEQVQoFY2QMQqEMBBFv7ERa/EMXkGw11K8QbDXzuN4BHv7QO6ifUgj7v4UAdlVM8Uwf+b9YZJISnlqrfEUZVlinucnBGKaJgghbiHOyLyFKIoCbdvecpyReYvo/Ma2bajrGtbaC58kCdZ1RZ7nl/4/4d5EsO/7nzl7IUtodBexMMagaRrs+06JLMvcNWmaOv2W/C/TMAyD58dxROgSmvxFFMdxoOs6lliWBXEcuzokXRbRoJRyvqqqQvye+QDMDz1D6yuj9wAAAABJRU5ErkJggg==) right center no-repeat;
@@ -983,15 +1028,15 @@ table {
 }
 
 thead th {
-  border-bottom: 2px solid #dedede;
+  border-bottom: 2px solid #1d1d1d;
 }
 
 tfoot th {
-  border-top: 2px solid #dedede;
+  border-top: 2px solid #1d1d1d;
 }
 
 td {
-  border-bottom: 1px solid #dedede;
+  /* border-bottom: 1px solid #dedede; */
 }
 
 th,

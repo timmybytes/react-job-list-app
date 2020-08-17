@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ab5c03e7cdc4412862677768f72e2efc",
+    "revision": "6c0d0ad5cc392730abaac4554653be72",
     "url": "/react-job-list-app/index.html"
   },
   {
-    "revision": "a68da4b07aef795a3c19",
-    "url": "/react-job-list-app/static/css/main.b044d04a.chunk.css"
+    "revision": "99f14454b68a031ecd6b",
+    "url": "/react-job-list-app/static/css/main.caf65235.chunk.css"
   },
   {
     "revision": "5bef7f0907ff68f5736d",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-job-list-app/static/js/2.b6b60e6d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a68da4b07aef795a3c19",
-    "url": "/react-job-list-app/static/js/main.080282e9.chunk.js"
+    "revision": "99f14454b68a031ecd6b",
+    "url": "/react-job-list-app/static/js/main.3cc09a8a.chunk.js"
   },
   {
     "revision": "f678b2d6ae250071e0c8",
